@@ -1,7 +1,6 @@
 ﻿namespace Bioscoop.Domain
 {
-    public class MovieScreening
+    internal class Movie
     {
-
     }
 }
