@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bioscoop.Domain
 {
-    internal class TicketExportFormat
+    public enum TicketExportFormat
     {
     }
 }

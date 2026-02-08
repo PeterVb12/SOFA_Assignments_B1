@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bioscoop.Domain
 {
-    internal class MovieTicket
+    public class MovieTicket
     {
         private int rowNr { get; set; }
         private int seatNr { get; set; }
@@ -25,6 +25,23 @@ namespace Bioscoop.Domain
         public Boolean IsPremiumTicket()
         {
             return isPremium;
+        }
+
+        public double getPrice()
+        {
+
+            return this.movieScreening.getPricePerseat();
+            
+        }
+
+        public DateTime getScreeningTime()
+        {
+            return movieScreening.dateAndTime;
+        }
+
+        public string toString()
+        {
+            return "";
         }
     }
 }
