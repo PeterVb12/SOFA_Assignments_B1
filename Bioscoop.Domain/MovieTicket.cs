@@ -13,7 +13,7 @@ namespace Bioscoop.Domain
         private MovieScreening movieScreening;
         private bool isPremium { get; set; }
 
-        public MovieTicket(MovieScreening movieScreening, Boolean isPremiumReservation, int seatRow, int seatNr)
+        public MovieTicket(MovieScreening movieScreening, bool isPremiumReservation, int seatRow, int seatNr)
         {
             this.movieScreening = movieScreening;
             isPremium = isPremiumReservation;
